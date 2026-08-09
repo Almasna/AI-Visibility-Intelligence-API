@@ -1,0 +1,13 @@
+Flask>=3.0,<4
+Flask-SQLAlchemy>=3.1,<4
+Flask-Migrate>=4.0,<5
+SQLAlchemy>=2.0,<3
+alembic>=1.13,<2
+pydantic>=2.7,<3
+python-dotenv>=1.0,<2
+openai>=1.40,<3
+requests>=2.32,<3
+psycopg[binary]>=3.2,<4
+gunicorn>=22,<24
+pytest>=8,<10
+pytest-mock>=3.14,<4

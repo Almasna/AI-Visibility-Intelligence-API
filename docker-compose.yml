@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: sqlite:////data/ai_visibility.db
+    ports:
+      - "8000:8000"
+    volumes:
+      - api-data:/data
+
+volumes:
+  api-data:
